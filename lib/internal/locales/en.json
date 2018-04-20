@@ -1,0 +1,13 @@
+{
+	"I0001 {locale}" : "Node.js locale is {locale}",
+    "E0002 {msConnTimeout}" : "Session connect timeout of {msConnTimeout} milliseconds elapsed.",
+    "E0003 {reason}" : "Error disconnecting connection to IS server: {reason}",
+    "E0004 {reason}" : "Error connecting to IS server: {reason}",
+    "E0005 {reason}" : "Error parsing IS server's response session cookie: {reason}",
+    "E0006" : "Missing required config parameter.",
+    "E0007 {reason}" : "Error received after sending request to IS server: {reason}",
+    "E0008 {reason}" : "Error received before sending request to IS server: {reason}",
+    "E0009" : "Must use client.connect() function first.",
+    "E00010 {statusCode} {message}" : "IS server returned failure response code: {statusCode} message: {message}",
+    "E00011 {msReadTimeout}" : "Session read timeout of {msReadTimeout} milliseconds elapsed."
+}
