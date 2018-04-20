@@ -3,7 +3,7 @@
   "version": "1.0.15",
   "description": "Integration Server client",
   "main": "./lib/index.js",
-  "private": true,
+  "private": false,
   "repository": {
     "type": "git",
     "url": "https://github.com/SoftwareAG/wm-is-client"
@@ -21,9 +21,7 @@
     "test": "npm run unit-test",
     "lint": "eslint --config .eslintrc.json --ignore-path .eslintignore test lib",
     "jsdoc": "jsdoc -d build/api lib",
-    "connTest": "node ./lib/conn-test.js",
     "ping": "node ./lib/cli-test.js -s localhost:5555 get wm.server:ping",
-    "pkgTest": "node ./lib/pkg-test.js",
     "test-jenkins": "mocha --reporter list"
   },
   "author": "usawco",
