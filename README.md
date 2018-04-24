@@ -15,6 +15,7 @@ GET invocation example
  
 | when          | what   |
 | ------------- | :------|
+| 1.0.16  | README.md update |
 | 1.0.15  | Initial release | 
 
 
@@ -538,8 +539,8 @@ listener.on(app.ERROR, (data) => {
 | in/out | param | required | contents | example |
 | -----  | ----- | -------- | -------  | ------- |
 | in     | service | yes    | fully qualified IS servicename | wm.server:ping |
-| in     |method | yes | HTTP GET or POST | GET, POST |
-| in     |sRequest | no | request [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | { "rows" : 3, "chunk" : 3} | 
+| in     | method | yes | HTTP GET or POST | GET, POST |
+| in     | reqStream | no | request [stream](https://nodejs.org/api/stream.html) | See POST example below | 
 | in     | headers | no | JSON object of optional additional HTTP request headers | {'Accept':'application/json'} |
 | out    | listener | - | [event](https://nodejs.org/api/events.html) emitter to listen for response events.| See  'Response' section for more details.
 
