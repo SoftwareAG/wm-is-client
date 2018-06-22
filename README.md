@@ -15,6 +15,7 @@ GET invocation example
  
 | when          | what   |
 | ------------- | :------|
+| 1.0.17  | Attach license header to source files |
 | 1.0.16  | README.md update |
 | 1.0.15  | Initial release | 
 
