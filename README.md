@@ -1004,3 +1004,7 @@ The API functions return a json object containing two elements
   data[app.ERR] - exception object if available
   data[app.REASON] - reason if available
 
+_____________________
+For more information you can Ask a Question in the [TECHcommunity Forums](http://tech.forums.softwareag.com/techjforum/forums/list.page?product=webmethods).
+
+You can find additional information in the [Software AG TECHcommunity](http://techcommunity.softwareag.com/home/-/product/name/webmethods).
