@@ -358,14 +358,12 @@ function initMe() {
         infoLog(`Using trust store: ${trustStorePath}`);
     }
 
-    if ( util.isNullOrUndefined(program.serverport)) {
-        program.serverport = 'localhost:5555';
-    }
-
-    let ar = program.serverport.split(':');
-    if ( ar.length == 2 ) {                    
-        config.http.hostname = ar[0];
-        config.http.port = ar[1];
+    if ( !util.isNullOrUndefined(program.serverport)) {
+        let ar = program.serverport.split(':');
+        if ( ar.length == 2 ) {                    
+            config.http.hostname = ar[0];
+            config.http.port = ar[1];
+        }
     }
 
     if ( !util.isNullOrUndefined(program.user) ) {
